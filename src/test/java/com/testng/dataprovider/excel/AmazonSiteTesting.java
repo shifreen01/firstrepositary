@@ -29,7 +29,7 @@ public class AmazonSiteTesting extends BaseClass {
 		BaseClass.sleepTime(4000);
 		BaseClass.loggingInformation(info1, info2, info3,info4,info5,info6);
 		BaseClass.sleepTime(4000);
-		BaseClass.assertData(expectedValue, AmazonSitePageRepositary.userVerified());
+		BaseClass.assertData(AmazonSitePageRepositary.userVerified(),expectedValue);
 		
 
 	}

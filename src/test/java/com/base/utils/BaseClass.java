@@ -403,8 +403,8 @@ public class BaseClass {
 		FileHandler.copy(scrFile, new File("./ScreenShot/" + d.toString().replace(":", "_") + ".png"));
 	}
 
-	public static void assertData(String expectedValue, String actualValue) {
-		assertEquals(expectedValue, actualValue);
+	public static void assertData(String actualValue, String expectedValue) {
+		assertEquals(actualValue,expectedValue);
 
 	}
 
