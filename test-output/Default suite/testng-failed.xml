@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.dataprovider.excel.Demo1">
+      <class name="com.testng.dataprovider.excel.AmazonSiteTesting">
         <methods>
-          <include name="wrapData"/>
+          <include name="report"/>
+          <include name="stopReport"/>
+          <include name="TestLogin" invocation-numbers="2"/>
         </methods>
-      </class> <!-- com.testng.dataprovider.excel.Demo1 -->
+      </class> <!-- com.testng.dataprovider.excel.AmazonSiteTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
