@@ -1,5 +1,7 @@
 package com.base.utils;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -402,12 +404,7 @@ public class BaseClass {
 	}
 
 	public static void assertData(String expectedValue, String actualValue) {
-		if(expectedValue.equals(actualValue)) {
-			System.out.println("");
-		}
-		else {
-			System.out.println("");
-		}
+		assertEquals(expectedValue, actualValue);
 
 	}
 

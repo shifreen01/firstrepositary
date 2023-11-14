@@ -32,7 +32,13 @@ public class AmazonSitePageRepositary extends BaseClass {
 	}
 	
 	public static String userVerified() {
-		String data = driver.findElement(By.xpath("//span[text()='Hello, Shifreen']")).getText();
-		return data;
+		try {
+			String data = driver.findElement(By.xpath("//span[text()='Hello, Shifreen']")).getText();
+			return data;
+		}
+		catch(Exception e) {
+			String data1 = driver.findElement(By.xpath("//span[contains(text(),'Your password is incorrect')]")).getText();
+			return data1;
+		}
 	}
 }

@@ -44,7 +44,7 @@
 				<version>3.2.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>fblogin.xml</suiteXmlFile>
+						<suiteXmlFile>amazonsite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -1,0 +1,4 @@
+com\base\utils\BaseClass.class
+com\facebook\page\repositary\AmazonSitePageRepositary.class
+com\testng\dataprovider\excel\AmazonSiteTesting.class
+com\testng\dataprovider\excel\ExcelUtil.class

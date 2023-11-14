@@ -7,7 +7,7 @@
         <methods>
           <include name="report"/>
           <include name="stopReport"/>
-          <include name="TestLogin" invocation-numbers="0 1 2"/>
+          <include name="TestLogin" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- com.testng.dataprovider.excel.AmazonSiteTesting -->
     </classes>
