@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 85.66 s <<< FAILURE! -- in TestSuite
-com.testng.dataprovider.excel.AmazonSiteTesting.TestLogin[jalal01@gmail.com, Nov@2003, Scenario 1 ->  Incorrect Username and Correct Password combination, chrome, https://www.amazon.in/, Hello, Shifreen, Url loaded sucessfully, Username entered, Password entered, Fail, Fail with screenshot, EMBEDED BELOW INCORRECT USER NAME AND CORRECT PASSWORD SCREENSHOT:](1) -- Time elapsed: 21.38 s <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 86.21 s <<< FAILURE! -- in TestSuite
+com.testng.dataprovider.excel.AmazonSiteTesting.TestLogin[jalal01@gmail.com, Nov@2003, Scenario 1 ->  Incorrect Username and Correct Password combination, chrome, https://www.amazon.in/, Hello, Shifreen, Url loaded sucessfully, Username entered, Password entered, Fail, Fail with screenshot, EMBEDED BELOW INCORRECT USER NAME AND CORRECT PASSWORD SCREENSHOT:](1) -- Time elapsed: 21.50 s <<< FAILURE!
 java.lang.AssertionError: expected [Hello, Shifreen] but found [Your password is incorrect]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -45,7 +45,7 @@ java.lang.AssertionError: expected [Hello, Shifreen] but found [Your password is
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.testng.dataprovider.excel.AmazonSiteTesting.TestLogin[shifreen01@gmail.com, Nov@1987, Scenario 2 -> Correct Username and Incorrect Password combination, chrome, https://www.amazon.in/, Hello, Shifreen, Url loaded sucessfully, Username entered, Password entered, Fail, Fail with screenshot, EMBEDED BELOW CORRECT USER NAME AND INCORRECT PASSWORD SCREENSHOT:](2) -- Time elapsed: 20.75 s <<< FAILURE!
+com.testng.dataprovider.excel.AmazonSiteTesting.TestLogin[shifreen01@gmail.com, Nov@1987, Scenario 2 -> Correct Username and Incorrect Password combination, chrome, https://www.amazon.in/, Hello, Shifreen, Url loaded sucessfully, Username entered, Password entered, Fail, Fail with screenshot, EMBEDED BELOW CORRECT USER NAME AND INCORRECT PASSWORD SCREENSHOT:](2) -- Time elapsed: 21.82 s <<< FAILURE!
 java.lang.AssertionError: expected [Hello, Shifreen] but found [Your password is incorrect]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -88,7 +88,7 @@ java.lang.AssertionError: expected [Hello, Shifreen] but found [Your password is
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.testng.dataprovider.excel.AmazonSiteTesting.TestLogin[shifreen01@gmail.com, Nov@1987, Scenario 3 -> Incorrect Username and InCorrect Password combination, chrome, https://www.amazon.in/, Hello, Shifreen, Url loaded sucessfully, Username entered, Password entered, Fail, Fail with screenshot, EMBEDED BELOW INCORRECT USER NAME AND INCORRECT PASSWORD SCREENSHOT:](3) -- Time elapsed: 20.64 s <<< FAILURE!
+com.testng.dataprovider.excel.AmazonSiteTesting.TestLogin[shifreen01@gmail.com, Nov@1987, Scenario 3 -> Incorrect Username and InCorrect Password combination, chrome, https://www.amazon.in/, Hello, Shifreen, Url loaded sucessfully, Username entered, Password entered, Fail, Fail with screenshot, EMBEDED BELOW INCORRECT USER NAME AND INCORRECT PASSWORD SCREENSHOT:](3) -- Time elapsed: 20.53 s <<< FAILURE!
 java.lang.AssertionError: expected [Hello, Shifreen] but found [Your password is incorrect]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
