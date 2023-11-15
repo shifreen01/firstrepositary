@@ -80,7 +80,7 @@ public class BaseClass {
 	public static synchronized String addScreenshots() throws IOException {
 		Long l = Calendar.getInstance().getTimeInMillis();
 		String screenshotId = l.toString();
-		String Path = System.getProperty("user.dir") + "/ExtentReports/";
+		String Path = System.getProperty("user.dir") + "/target/";
 
 		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String imgPath = Path + screenshotId + ".png";
@@ -88,7 +88,7 @@ public class BaseClass {
 		File dest = new File(imgPath);
 		FileHandler.copy(screenshot, dest);
 
-		String ImagePath = "../ExtentReports/" + screenshotId + ".png";
+		String ImagePath = "../target/" + screenshotId + ".png";
 		System.out.println(ImagePath);
 		return ImagePath;
 	}
